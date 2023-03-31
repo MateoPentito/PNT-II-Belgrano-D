@@ -17,3 +17,21 @@ Agregar un texto en CMD:
 
 - git log 
 "Para ver los commit que hiciste"
+
+- git branch 
+"Te informa la rama"
+
+- git branch -M main
+"Cambiar rama master a main"
+
+____________________________________________________________________________
+Crear repositorio en GitHub
+Copiar URL:
+
+- git remote add origin (URL)
+
+- git remote -v
+"Para ver en que repositorio estas parado"
+
+- git push -u origin main
+"enviar los datos al repositorio, de la rama tal"
