@@ -1,1 +1,19 @@
-Algun texto,modificado
+Agregar un texto en CMD:
+
+-Abrir cmd en carpeta de directorio.
+
+- git notepad texto.txt
+"Te abre un archivo de texto"
+
+- git add texto.txt
+"Agrega el texto al directorio"
+
+- git status 
+"Te muestra la situacion"
+
+- git commit -m "referencia de lo que hiciste"
+
+- git status
+
+- git log 
+"Para ver los commit que hiciste"
