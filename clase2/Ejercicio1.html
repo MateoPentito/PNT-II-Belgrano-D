@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio01</title>
+</head>
+<body>
+    <script>
+
+
+        const lista = [3,6,-4,8,10,-15,30,0,-12,20];
+        
+        const resultado = {
+            cantidadPositivos: 0,
+            cantidadNegativos:0,
+            totalPositivos:0,
+            totalNegativos:0,
+            totalNumerosMayoresAOcho:0
+        }
+
+
+
+        for(let i = 0 ; i < lista.length;i++){
+            if(lista[i] > 0){
+                resultado.cantidadPositivos ++;
+                resultado.totalPositivos += lista[i];
+                if(lista[i] > 8){
+                    resultado.totalNumerosMayoresAOcho += lista[i];
+                }
+            }
+            if(lista[i] < 0){
+                resultado.cantidadNegativos ++;
+                resultado.totalNegativos += lista[i];
+            }
+         }
+        console.log("Cantidad de numeros positivos: "+resultado.cantidadPositivos);
+        console.log("Cantidad de numeros negativos: "+resultado.cantidadNegativos);
+        console.log("Cantidad de total de positivos: "+resultado.totalPositivos);
+        console.log("Cantidad de total de negativos: "+resultado.totalNegativos);
+        console.log("Cantidad de numeros mayores a 8: "+resultado.totalNumerosMayoresAOcho);
+     
+        
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
