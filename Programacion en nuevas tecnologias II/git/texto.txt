@@ -48,13 +48,9 @@ Para crear otra rama...
 - git checkout main
 "para volver a la rama anterior"
 
-
-<<<<<<< HEAD
 - git branch -D (nombre de la rama)
 "para borrar una rama"
-=======
 
->>>>>>> dev1
 
 
 
