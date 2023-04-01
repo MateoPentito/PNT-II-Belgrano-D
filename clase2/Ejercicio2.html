@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <script>
+
+        const lista = [500,600,350,1001,200];
+
+
+        const resultado= {
+            cantidad0a500:0,
+            precio0a500:0,            
+            cantidad501a1000:0,
+            precio501a1000:0,            
+            cantidadMayorA1000:0,
+            precioMayorA1000:0
+        };
+
+
+        for(let i = 0 ; i < lista.length ; i++ ){
+           if(lista[i] <= 500 ) {
+            resultado.cantidad0a500 ++;
+            resultado.precio0a500 += lista[i];
+           }else if(lista[i] >= 501 && lista[i] < 1000){
+            resultado.cantidad501a1000 ++;
+            resultado.precio501a1000 += lista[i];
+           }else if(lista[i] > 1000){
+            resultado.cantidadMayorA1000 ++;
+            resultado.precioMayorA1000 += lista[i];
+           }
+        };
+
+        console.log("Cantidad de 0 a 500: "+resultado.cantidad0a500);
+        console.log("Precio de 0 a 500: "+resultado.precio0a500);
+        console.log("Cantidad de 501 a 1000: "+resultado.cantidad501a1000);
+        console.log("Precio de 501 a 1000: "+resultado.precio501a1000);
+        console.log("Cantidad mayor a 1000: "+resultado.cantidadMayorA1000);
+        console.log("Precio mayor a 1000: "+resultado.precioMayorA1000);
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
