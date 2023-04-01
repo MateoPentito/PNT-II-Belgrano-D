@@ -51,7 +51,9 @@ Para crear otra rama...
 - git branch -D (nombre de la rama)
 "para borrar una rama"
 
-
+. git merge dev1
+"si estoy en la rama main y quiero copiar los datos de la rama dev1, se usa
+el merge y (rama que queres copiar)"
 
 
 
