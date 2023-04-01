@@ -35,3 +35,28 @@ Copiar URL:
 
 - git push -u origin main
 "enviar los datos al repositorio, de la rama tal"
+
+______________________________________________________________________________
+
+Para crear otra rama...
+
+- git branch nuevaRama
+
+- git checkout nuevaRama
+"Para cambiar de rama a nuevaRama"
+
+- git checkout main
+"para volver a la rama anterior"
+
+
+- git branch -D (nombre de la rama)
+"para borrar una rama"
+
+
+
+
+
+
+
+
+
